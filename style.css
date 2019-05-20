@@ -1,0 +1,494 @@
+@font-face {
+    font-family: 'FuturaDemiC';
+    src: url(FuturaDemiC.ttf) format("opentype");
+}
+body {
+    background-color: #EEEDE9;
+    font-family: 'FuturaDemiC';
+    font-weight: 400;
+}
+.header {
+    padding-top: 1.5%;
+}
+.logo {
+    float: left;
+}
+.slogan {
+    font-size: 14px;
+    font-weight: 900;
+}
+.slogan span {
+    margin-top: 5%;
+    margin-left: 5%
+}
+.string1 {
+}
+.string2 {
+    margin-left: 5%;
+}
+.string3 {
+    margin-left: 10%;
+}
+.region {
+    font-size: 0.9em;
+    justify-content: flex-end;
+}
+.select {
+    border: 2px solid #EEEDE9 !important;
+    background-color: white;
+    background-clip: content-box;
+    padding: 0 15% 0 8%;
+    color: #e2484d;
+}
+.phones {
+    padding-top: 3%;
+    padding-left: 10%;
+}
+.phones img {
+    float: left;
+}
+.phones p {
+    font-size: 0.9em;
+    margin-top: -5%;
+    margin-bottom: 1%;
+}
+.phones p span{
+    font-size: 1.4em;
+}
+.adress {
+    margin-bottom: 2.5%;
+}
+
+.adress p {
+    margin-bottom: 1%;
+}
+.adress-item {
+    margin-top: -3%;
+    font-size: 0.9em;
+}
+.menu {
+    margin-top: 1%;
+    background-color: #633e3f;
+    font-weight: 900;
+}
+.nav-item {
+    color: white !important;
+    white-space: nowrap;
+}
+.navbar {
+    width: 100% !important;
+}
+.navbar-nav {
+    width: 100% !important;
+}
+.vk {
+    float: right !important;
+}
+.inst {
+    float: right !important;
+}
+.banner {
+    background-color: #FFFFFF;
+    margin-bottom: 5%;
+}
+.banner img {
+    width: 100%;
+    height: inherit;
+}
+.banner h1 {
+    text-align: center;
+    padding: 10% 0 10% 0;
+    font-weight: 400;
+    font-size: 3em;
+    margin: 5% 0 5% 0;
+}
+.banner p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.btn {
+    background-color: #e2484d;
+    color: #FFFFFF;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
+}
+.banner button {
+    padding: 3%;
+    margin: 7% 0 7% 0;
+}
+.btn p {
+    margin: 0;
+    font-size: 1em;
+}
+.breadcrumb {
+    margin: 0;
+    background-color: #FFFFFF;
+}
+.breadcrumb a {
+    color: black;
+    text-decoration: none;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "|";
+}
+.project {
+    padding: 2%;
+    background-color: #FFFFFF;
+    margin-bottom: 4%
+}
+.project img {
+    width: 100%;
+    margin: 1.6%;
+    height: inherit;
+}
+.project-1 {
+    margin-right: 0.1%
+}
+.project-1::before {
+    content: '';
+    background-image: url(images/1.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0; right: 3.2%;
+    bottom: 1.7%; left: 1.7%;
+}
+.project-1 p {
+    position: absolute;
+    align-self: flex-end;
+    color: white;
+    padding: 8%;
+    font-size: 1.4em;
+    margin: 0;
+}
+.project-2::before {
+    content: '';
+    background-image: url(images/2.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0; right: 2.5%;
+    bottom: 3.5%; left: 2%;
+}
+.project-2 {
+    height: inherit;
+}
+.project-3 {
+    height: inherit;
+}
+.project-2 p {
+    position: absolute;
+    align-self: flex-end;
+    color: white;
+    font-size: 0.9em;
+    line-height: 1em;
+    padding: 5%;
+    margin: 0;
+}
+.project-3::before {
+    content: '';
+    background-image: url(images/2.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0; right: 2.5%;
+    bottom: 3.5%; left: 2.3%;
+}
+.project-3 p {
+    position: absolute;
+    align-self: flex-end;
+    color: white;
+    font-size: 0.9em;
+    line-height: 1em;
+    padding: 5%;
+    margin: 0;
+}
+.technology {
+    background-color: #FFFFFF;
+    margin-bottom: 4%;
+    padding: 2%;
+}
+.technology hr {
+    width: 3.3em;
+    height: 2px;
+    background-color: #e2484d;
+    margin: 1% 0 5%;
+}
+.technology p {
+    font-size: 1em;
+    font-weight: 400; 
+    margin-bottom: 5%;
+}
+.technology-img {
+    padding: 4%;
+}
+.technology-img img {
+    padding: 2% 0 5%;
+}
+.technology-show p {
+    text-decoration: underline;
+    color: #e2484d;
+    text-align: center;
+    margin: auto;
+    font-size: 0.75em;
+}
+.technology button {
+    background-color: #e2484d;
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.carousel {
+    margin: 3% 0 3%;
+    width: 100% !important;
+}
+.carousel li {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.carousel .active {
+    background-color: #e2484d;
+}
+.carousel ol {
+    margin-left: 22em;
+}
+.slider-1-content {
+    background-color: #FFFFFF;
+    padding: 2% 5% 2% 5%;;
+    width: 100% !important;
+}
+.red-hr {
+    width: 3.3em;
+    height: 2px;
+    background-color: #e2484d;
+    margin: 1% 0 7%;
+}
+.slider-1-content h5 hr {
+    width: 100%;
+    height: 1px;
+    background-color: #DCDCDC;
+    margin: 1% 0 5%;
+}
+.slider-1-img {
+    height: 100%;
+}
+.slider-1-content p {
+    font-weight: 400;
+}
+.slider-1-content row {
+    width: inherit!important;
+}
+.slider-2-content {
+    background-color: #FFFFFF;
+    padding: 2% 5%;
+}
+.slider-2-content hr {
+    margin-bottom: 0 !important;
+}
+.slider-2-content img {
+    float: left;
+}
+.comment {
+    margin-top: 7%;
+    margin-left: 6em;
+    font-weight: bold;
+    margin-bottom: 8%;
+}
+.fa-quote-right {
+    color: #DCDCDC;
+    float: right;
+    margin-top: -5%;
+}
+.user-comment {
+    font-weight: bold;
+}
+.user-comment span {
+    color: #e2484d !important;
+}
+.second-block {
+    padding-top: 6%;
+}
+.characteristic {
+    font-weight: bolder !important;
+}
+.carousel a {
+    width: 0;
+}
+.advantage {
+    background-color: #FFFFFF;
+    padding: 2% 2% 5%;
+}
+.advantage hr {
+    margin-bottom: 3%;
+}
+.advantage img {
+    float: left;
+}
+.advantage p {
+    line-height: 1.2em;
+    margin-left: 4.9em;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.advantage-item {
+    margin-bottom: 2%;
+}
+.dream {
+    background-color: #FFFFFF;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+.dream hr {
+    margin-bottom: 2.5%;
+}
+.dream p {
+    color: #633e3f;
+    font-size: 0.9em;
+}
+.dream button {
+    margin: 0.5% 0 2%;
+}
+.footer {
+    background-color: #633e3f;
+    color: #FFFFFF;
+    padding-top: 0.4%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.footer h4 {
+    margin: 5% 15% 0 0%;
+}
+.red-text {
+    color: #e2484d !important;
+}
+.adress-footer {
+    font-size: 0.9em;
+}
+.social {
+    margin: 5%;
+}
+.social p {
+    line-height: 0;
+}
+.social img {
+    margin-bottom: 5%;
+}
+.footer-menu {
+    margin-top: 1.5%;
+    PADDING-left: 4%;
+}
+.footer hr {
+    background-color: white;
+    margin-bottom: 2%;
+}
+.legal-status {
+    padding-bottom: 2%;
+}
+@media screen and (max-width: 991px) {
+    body {
+        overflow-x: hidden;
+    }
+    .slogan img {
+        margin-left: 150px;
+    }
+    .description {
+        padding-left: 15%;
+        margin-bottom: 2%;
+    }
+    .region-select {
+        margin-bottom: 3%;
+    }
+    .adress {
+        padding-left: 10%;
+    }
+    .navbar-nav img {
+        display: none;
+    }
+    .navbar {
+    width: auto;
+    }
+    .navbar-nav {
+        width: auto;
+    }
+    .slider-2-content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .slider-1-content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .adress-footer {
+        padding: 5%;
+    }
+    .project-cards {
+        padding-left: 5%;
+        padding-right: 0.5%;
+        width: inherit;
+    }
+    .project-2 {
+        padding: 3%;
+    }
+    .project-3 {
+        padding: 3%;
+    }
+    .project-3::before {
+    content: '';
+    background-image: url(images/2.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0; right: 1.8%;
+    bottom: 6.5%; left: 4.3%;
+    }
+    .project-2::before {
+    content: '';
+    background-image: url(images/2.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0; right: 1.7%;
+    bottom: 6%; left: 4.2%;
+    }
+    .project-1::before {
+    content: '';
+    background-image: url(images/1.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0; right: 7.5%;
+    bottom: 1.9%; left: 7%;
+    }
+    .project-2 p {
+    position: absolute;
+    align-self: flex-end;
+    color: white;
+    font-size: 0.7em;
+    line-height: 1em;
+    padding: 4% 5%;
+    }
+    .technology {
+        padding: 5%;
+    }
+    .technology button {
+    background-color: #e2484d;
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    margin-left: 16%;
+    }
+    .legal-status {
+        padding: 5%;
+    }
+}
